@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valorant Character TTS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Valorant Character Voice Generator</h1>
+    <textarea id="text-input" rows="4" placeholder="Type your message..."></textarea>
+    <div class="controls">
+      <select id="voice-select"></select>
+      <label>Rate: <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1"></label>
+      <label>Pitch: <input type="range" id="pitch" min="0" max="2" step="0.1" value="1"></label>
+    </div>
+    <button id="speak-btn">Speak</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

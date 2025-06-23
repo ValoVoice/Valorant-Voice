@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #181A20;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background: #23272F;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+    width: 350px;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .controls {
+    margin-bottom: 1rem;
+  }
+  select, input[type="range"] {
+    margin: 0.5rem 0;
+  }
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #FF4655;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #d13a4a;
+  }
+  
